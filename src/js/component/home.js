@@ -31,7 +31,7 @@ export class Home extends React.Component {
 				<div
 					style={{ color: "white", backgroundColor: "red" }}
 					className="ui container">
-					ERROOOR! {errorMessage}
+					ERROOR! {errorMessage}
 				</div>
 			);
 		} else if (latitude && !errorMessage) {
