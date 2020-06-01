@@ -1,13 +1,24 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
 
-    You can write your own styles here...
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.text-cont{
+    font-size: 60px;
+    text-align: center;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.icon-up, .icon-down{
+    font-size: 60px;
+    margin: 0 50px 0 50px;
+
+}
+.icon-down{
+    float: right;
+}
